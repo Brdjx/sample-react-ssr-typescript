@@ -1,0 +1,17 @@
+.featureTwo {
+}
+
+.pageContent {
+    min-height: 1200px;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.headingSection {
+    h2 {
+        color: #000;
+    }
+    h5 {
+        color: #9ca2ad;
+    }
+}

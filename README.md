@@ -1,0 +1,1 @@
+# React + TypeScript + Server Side Rendering Sample Codebase

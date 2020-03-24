@@ -1,0 +1,43 @@
+.splashSection {
+    background: #111827;
+    /*padding: 180px 15px;*/
+    width: 100%;
+    .carouselCaption {
+        background: linear-gradient(0deg, #0a0b0d, rgba(41, 4, 8, 0.56), transparent);
+        bottom: 0;
+        color: #fff;
+        left: 0;
+        padding: 20px 100px 80px;
+        position: absolute;
+        right: 0;
+        text-align: left;
+        z-index: 10;
+    }
+    h3 {
+        font-size: 3.5rem;
+        text-shadow: 0 4px 12px rgba(26, 26, 30, 0.7);
+    }
+}
+
+.carousel {
+    min-height: 700px;
+}
+
+.carouselItem {
+    background-size: cover;
+    min-height: 700px;
+}
+
+.carousel-control-prev {
+    width: 50px;
+}
+
+@media (max-width: 1200px) {
+    .carousel {
+        min-height: 500px;
+    }
+    .carouselItem {
+        background-size: cover;
+        min-height: 500px;
+    }
+}
